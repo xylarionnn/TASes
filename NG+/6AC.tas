@@ -178,8 +178,44 @@ EndStunPause
   13,U,X
   40
 
+AnalogMode, Ignore
 #lvl_02b
-Read,6A,lvl_02b,6HC0
+  11,L
+  16,L,X
+  15,L,C
+  36,L
+   1,J
+   1,K,G
+  11,J,G
+  12,D,X
+Repeat,5
+   1,R,K
+   1,R,J
+   1,L,K
+   1,L,J
+EndRepeat
+   1,R,K
+   1,R,J
+   1,L,J
+  11,U,X
+   7,L,J
+   6,R,J
+  14,U,X
+   6,L,J
+  11,L
+   1,L,K
+  10,L
+   6
+   6,R,K
+Repeat,6
+   1,K
+   1,R,K
+EndRepeat
+   3,K
+   3,R,K
+   7,L,K
+   1,L,K,G
+   7,L,U,G
    1,J,G
   10,L,X
    2,L,J
@@ -263,3 +299,5 @@ Read,6A,lvl_02b,6HC0
   14,L,U,Z
  257
    1,J
+
+MidwayChapterTime: 0:50.541(2973)
